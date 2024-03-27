@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+header{
+    text-align: center;
+    background-color: #E3E2DD;
+}
+
+nav a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 0% 70px ;
+}
+
+nav img{
+    width: 5%;
+    display: inline;
+}
+
+.navbar a:hover {
+    background-color: white;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #B4B4B8; 
+    position: sticky;
+    top: 0;
+    border-width: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+    .navbar a {
+        color: black;
+        padding: 14px 20px;
+        text-decoration: none;
+        }
+
+    .navbar a:hover {
+        background-color:white ;
+    }
+
+    @media (max-width: 800px) {
+        .navbar {
+            flex-direction:column ;
+            position: unset;
+        }
+        
+        .navbar a {
+        text-align: center;}
+    }
+
+    main{
+        background-color: #F2EFE5;
+        text-align: center;
+    }
+    
+    
+    article img{
+        margin: 1px 1px;
+        padding: 2px 2px;
+        width: 100%;
+        }
+
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            }
+
+    .producto1{
+        margin: 10px;
+        border-style: groove;
+        flex-direction: row;
+        
+    }
+        
+
+    .cuotas{
+        border-style: solid;
+        display: inline;
+        border-color: dimgrey;
+        margin: 10%;
+        background-color: #B4B4B8;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 1000;
+        font-style: normal;
+}
+            
+
+    main img{
+        width: 10%;
+    transition: 0.5s all ease-in-out;
+    border-style: groove;
+    }
+
+    img:hover {
+        transform: scale(1.05);
+    }
+
+    footer section{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr) ;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "f1 f2 f3"
+        "f4 f5 f6"
+        "f7 f7 f7"
+        ;
+    }
+
+    .f1{
+        grid-area: f1;
+    }
+
+    .f2{
+        grid-area: f2;
+    }
+
+    .f3{
+        grid-area: f3;
+    }
+
+    .f4{
+        grid-area: f4;
+    }
+
+    .f5{
+        grid-area: f5;
+    }
+
+    .f6{
+        grid-area: f6;
+    }
+
+    .f7{
+        grid-area: f7;
+    }
+
+
+    footer img{
+        width: 8%;
+    }
+
+    footer a{
+        display: flex;
+        flex-direction: row;
+        color: rgb(102, 105, 103);
+    }
+
+    footer article{
+        border-style: groove;
+        border-width: 2px;
+    }
+
+    footer{
+        background-color: #D9D9D9;
+    }
+
+
+    /*carrito*/
+
+    .principal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .carritoaside{
+        flex-basis: 25%;
+        padding: 10px;
+        text-align: center;
+        background-color: #D9D9D9;
+        }
+    
+
+    .carrito{
+        flex-basis: 75%;
+        padding: 10px;
+        text-align: justify;
+        background-color: #F2EFE5;
+
+        }
+
+        /*carrito*/
+
+        /*contactos */
+        .asidecontactos{
+            flex-basis: 30%;
+            background-color: #E3E2DD;
+        
+        }
+
+        
+        .asidecontactos img{
+            width: 220px;
+        }
+
+        .maincontactos{
+            flex-basis: 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            
+            
+        }
+
+        /*productos*/
+
+        .gridproductos{
+            display: grid;
+            grid-template-columns:repeat(3, 1fr) ;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-areas: 
+            "copa plato vaso"
+            "rayador olla #"
+            "# buda #"
+        ;
+        }
+
+        .copa{
+            grid-area: copa;
+        }
+
+        .plato{
+            grid-area: plato;
+        }
+
+        .vaso{
+            grid-area: vaso;
+        }
+
+        .rayador{
+            grid-area: rayador;
+        }
+
+        .olla{
+            grid-area: olla;
+        }
+
+        .buda{
+            grid-area: buda;
+        }
+
+        .productoaside{
+            flex-basis: 30%;
+        }
+
+        .productos img{
+            width: 300px;
+            transition: 0.5s all ease-in-out;
+            border-style: groove;
+            
+        }
+
+        .cuotasproducto{
+        border-style: solid;
+        display: flex;
+        border-color: dimgrey;
+        margin: 15%;
+        background-color: #B4B4B8;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 1000;
+        font-style: normal;
+}
+        
+@media (max-width: 1024px){
+    header{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 768px){
+
+    .navbar img{
+        width: 30%;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        }
+
+        main img{
+            width: 70%;
+        }
+}
