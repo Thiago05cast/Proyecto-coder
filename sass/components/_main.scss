@@ -1,0 +1,53 @@
+
+main{
+    background-color: #F2EFE5;
+    text-align: center;
+}
+
+
+article img{
+    margin: 1px 1px;
+    padding: 2px 2px;
+    width: 100%;
+    }
+
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        }
+
+.producto1{
+    margin: 10px;
+    border-style: groove;
+    flex-direction: row;
+    
+    
+}
+    
+.producto1 img{
+    width: 150px;
+}
+
+.cuotas{
+    border-style: solid;
+    display: inline;
+    border-color: dimgrey;
+    margin: 0%;
+    background-color: #B4B4B8;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+}
+        
+
+main img{
+    width: 10%;
+transition: 0.5s all ease-in-out;
+border-style: groove;
+}
+
+img:hover {
+    transform: scale(1.05);
+}

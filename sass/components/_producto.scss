@@ -1,0 +1,127 @@
+.gridproductos1{
+    display: grid;
+    grid-template-columns:repeat(5, 1fr) ;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+    "copa . plato . vaso"
+    
+;
+}
+
+.gridproductos2{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+    
+    
+    "rayador . olla"
+    
+;
+}
+
+.gridproductos3{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+    
+    "buda .  camastro"
+    
+;
+}
+
+.copa{
+    grid-area: copa;
+    border-style: groove;
+    background-color: bisque;
+}
+
+.copa img{
+    width: 12.5rem;
+    
+}
+
+.plato{
+    grid-area: plato;
+    border-style: groove;
+    background-color: bisque;
+}
+
+.plato img{
+    width: 12.5rem;
+    
+}
+
+.vaso{
+    grid-area: vaso;
+    border-style: groove;
+    background-color: bisque;
+}
+
+.vaso img{
+    width: 12.5rem;
+    
+}
+
+.rayador{
+    grid-area: rayador;
+    border-style: groove;
+    background-color: bisque;
+}
+
+.rayador img{
+    width: 12.5rem;
+}
+
+.camastro{
+    grid-area: camastro;
+    border-style: groove;
+    background-color: bisque;
+}
+
+.camastro img{
+    width: 12.5rem;
+}
+
+.olla{
+    grid-area: olla;
+    border-style: groove;
+    background-color: bisque;
+}
+
+.olla img{
+    width: 12.5rem;
+}
+
+.buda{
+    grid-area: buda;
+    align-items: center;
+    border-style: groove;
+    background-color: bisque;
+    margin: 1px;
+}
+
+.buda img{
+    width: 12.5rem;
+}
+
+.jardin{
+    grid-area: jardin;
+}
+
+.vajilla{
+    margin: .625rem;
+    margin: 50px;
+    border-style: solid;
+}
+
+.cocina{
+    margin: 50px;
+    border-style: solid;
+}
+
+.jardin{
+    margin: 50px;
+    border-style: solid;
+}

@@ -1,0 +1,20 @@
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carritoaside{
+    flex-basis: 25%;
+    padding: 10px;
+    text-align: center;
+    background-color: #D9D9D9;
+    }
+
+
+.carrito{
+    flex-basis: 75%;
+    padding: 10px;
+    text-align: justify;
+    background-color: #F2EFE5;
+
+    }

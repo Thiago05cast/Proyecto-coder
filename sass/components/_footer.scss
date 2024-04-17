@@ -1,0 +1,68 @@
+footer img{
+    width: 10%;
+}
+
+footer a{
+    display: flex;
+    flex-direction: row;
+    color: rgb(102, 105, 103);
+}
+
+footer article{
+    border-style: groove;
+    border-width: 2px;
+}
+
+footer{
+    background-color: #D9D9D9;
+    width: 100%;
+}
+
+footer section{
+    
+
+
+
+
+
+
+
+
+
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "f1 f2 f3"
+    "f4 f5 f6"
+    "f7 f7 f7"
+    ;
+}
+
+.f1{
+    grid-area: f1;
+}
+
+.f2{
+    grid-area: f2;
+}
+
+.f3{
+    grid-area: f3;
+}
+
+.f4{
+    grid-area: f4;
+}
+
+.f5{
+    grid-area: f5;
+}
+
+.f6{
+    grid-area: f6;
+}
+
+.f7{
+    grid-area: f7;
+}

@@ -1,0 +1,38 @@
+
+nav a {
+        color: black;
+        padding: 10px 10px;
+        text-decoration: none;
+        margin: 0% 20px ;
+        
+    }
+
+    nav img{
+        width: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar a:hover {
+        
+        text-align: center;
+        
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        background-color: #B4B4B8; 
+        position: sticky;
+        top: 0;
+        border-width: 7px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+        a {
+            color: black;
+            padding: 14px 15px;
+            text-decoration: none;
+            }
+
+        
