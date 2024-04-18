@@ -1,6 +1,6 @@
 
 main{
-    background-color: #F2EFE5;
+    background-color: map-get($colores , colorprincipal );
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ article img{
     display: inline;
     border-color: dimgrey;
     margin: 0%;
-    background-color: #B4B4B8;
+    background-color: map-get($colores , coloralternativo );
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 1000;

@@ -22,7 +22,7 @@ nav a {
     .navbar {
         display: flex;
         justify-content: center;
-        background-color: #B4B4B8; 
+        background-color: map-get($colores , coloralternativo ); 
         position: sticky;
         top: 0;
         border-width: 7px;

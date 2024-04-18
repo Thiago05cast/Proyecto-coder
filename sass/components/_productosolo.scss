@@ -27,7 +27,7 @@ aside{
     display: flex;
     border-color: dimgrey;
     margin: 15%;
-    background-color: #B4B4B8;
+    background-color: map-get($colores , coloralternativo );
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 1000;
