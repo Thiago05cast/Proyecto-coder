@@ -1,18 +1,19 @@
 
-nav a {
+nav {
+    a {
         color: black;
         padding: 10px 10px;
         text-decoration: none;
         margin: 0% 20px ;
-        
+        font-family: 'Times New Roman', Times, serif;
     }
 
-    nav img{
+    img{
         width: 20px;
         display: flex;
         flex-direction: column;
     }
-
+}
     .navbar a:hover {
         
         text-align: center;

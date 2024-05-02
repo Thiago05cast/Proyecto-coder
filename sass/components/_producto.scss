@@ -1,4 +1,6 @@
 .gridproductos1{
+    margin-left: 80px;
+    margin-right: 80px;
     display: grid;
     grid-template-columns:repeat(5, 1fr) ;
     grid-template-rows: repeat(1, 1fr);
@@ -6,9 +8,12 @@
     "copa . plato . vaso"
     
 ;
+    
 }
 
 .gridproductos2{
+    margin-left: 80px;
+    margin-right: 80px;
     display: grid;
     grid-template-columns:repeat(3, 1fr) ;
     grid-template-rows: repeat(1, 1fr);
@@ -21,6 +26,8 @@
 }
 
 .gridproductos3{
+    margin-left: 80px;
+    margin-right: 80px;
     display: grid;
     grid-template-columns:repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -29,6 +36,7 @@
     "buda .  camastro"
     
 ;
+
 }
 
 .copa{
@@ -100,6 +108,8 @@
     border-style: groove;
     background-color: bisque;
     margin: 1px;
+    justify-content: space-around;
+    
 }
 
 .buda img{
@@ -114,6 +124,7 @@
     margin: .625rem;
     margin: 50px;
     border-style: solid;
+    margin-top: 0px;
 }
 
 .cocina{

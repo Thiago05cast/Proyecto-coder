@@ -13,3 +13,13 @@ main{
     background-color: #F2EFE5;
     text-align: center;
 }
+
+h2{
+    margin: 20px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 99%;
+}
+
+.titulo{
+    @include titulo
+}

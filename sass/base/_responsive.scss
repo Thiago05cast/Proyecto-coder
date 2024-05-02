@@ -44,49 +44,6 @@
         
         
         
-        /*{
-            display: grid;
-            grid-template-columns:repeat(2, 1fr) ;
-            grid-template-rows: repeat(4, 1fr);
-            grid-template-areas: 
-            "f1 f2"
-            "f3 f4"
-            "f5 f6"
-            "f7 f7"
-            ;
-        }
-        
-        .f1{
-            grid-area: f1;
-        }
-        
-        .f2{
-            grid-area: f2;
-        }
-        
-        .f3{
-            grid-area: f3;
-        }
-        
-        .f4{
-            grid-area: f4;
-        }
-        
-        .f5{
-            grid-area: f5;
-        }
-        
-        .f6{
-            grid-area: f6;
-        }
-        
-        .f7{
-            grid-area: f7;
-        }
-
-
-    }
-    */
     footer img{
         width: 100px;
     }
@@ -96,9 +53,105 @@
     }
 
 
-}    
+    /*contacto*/
+    .principalcontacto{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .asidecontactos{
+            width: 100%;
+        }
+        .maincontactos{
+            width: 100%;
+        }
+    }
 
 
-@media(max-width: 511px){
+    /* productos*/
+    .gridproductos1{
+        
+        gap: 20px;
+        display: grid;
+        grid-template-columns:repeat(1, 1fr) ;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "copa"
+        "plato"
+        "vaso"
+        ;
+    }
+
+    .gridproductos2{
+        gap: 20px;
+        display: grid;
+        grid-template-columns:repeat(1, 1fr) ;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        
+        
+        "rayador"
+        "olla"
+        ;
+    }
     
+
+    .gridproductos3{
+        gap: 20px;
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        
+        "buda"
+        "camastro"
+        
+    ;
+    }
+
+        /*producto solo*/
+
+    
+        .mainproductos{
+            display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        h1{
+            font-size: 99%;
+        }
+        }
+
+        section{
+            h1{
+                font-size: 18px;
+            }
+        }
+        .productooaside{
+            img{
+                width: 200px;
+            }
+        }
+
+        .cuotasproducto{
+            width: 90px;
+            font-size: 14px;
+        }
+    }
+
+
+
+    
+
+
+@media(max-width: 769px){
+    .bodycontacto{
+        aside{
+            width: 30%;
+        }
+    }
+
+    .gridproductos1{
+        margin: 2px;
+    }
 }
